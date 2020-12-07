@@ -1,0 +1,9 @@
+resolver: nightly-2020-12-06
+#   url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/16/25.yaml
+
+packages:
+- .
+
+ghc-options:
+    "$everything": -freduction-depth=0
+
